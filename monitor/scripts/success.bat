@@ -1,0 +1,3 @@
+cd d:\GoProj\src\monitor
+d:
+java -jar -Dshow=true -DbrowserType="chrome" -DbrowserPath="C:/Program Files (x86)/Google/Chrome/Application/chrome.exe" -DlogDir="d:/GoProj/src/monitor/data/test1_probe1/logs" -DurlTitle="test1_probe1" -DconfigFile="d:/GoProj/src/monitor/data/test1_probe1/config_test1_probe1.cfg" -Dlog4j.configurationFile="d:/GoProj/src/monitor/exec/log4j2.xml" d:/GoProj/src/monitor/exec/MNSCli.jar
